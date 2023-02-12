@@ -1,6 +1,72 @@
+.skin-content-area {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	position: relative;
+}
+
+.col-md-4 .col-12 {
+	padding: 0px 1%;
+	box-sizing: border-box;
+	height: 300px;
+}
+
+.skin-grid-card {
+	display: flex;
+	flex-direction: column;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
 .skin-grid-img {
-	height: 100px;
-	width: 100px;
+	max-width: 840px;
+	position: relative;
+	padding-top: 80%;
+	border: 1px solid #715f40;
 	background-size: cover;
 	background-position: center top;
+	border-radius: 5px;
+}
+
+.skin-grid-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.skin-grid-name {
+	color: #f4ebd7;
+	word-break: keep-all;
+	overflow: hidden;
+	width: 100%;
+	font-size: 14px;
+	max-height: 47px;
+}
+
+svg {
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.skin-grid-price {
+	color: #f4ebd7;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.origin-price {
+	color: #5b5a56;
+	text-decoration: line-through;
+}
+
+.discounted-price {
+	margin-left: 5px;
 }

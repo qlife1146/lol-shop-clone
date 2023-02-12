@@ -8,12 +8,13 @@ export default function ChampionGrid() {
     const [items] = useState(championList);
     const navigate = useNavigate();
     return (
-        <div className="content-area">
+        <div className="champion-content-area">
             <Row>
                 {items.map((_, i) => (
                     <Col
                         xs={12}
                         md={4}
+                        className="champion"
                     >
                         <div
                             className="champion-grid-card"

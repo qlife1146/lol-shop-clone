@@ -19,7 +19,14 @@ import { useState } from "react";
 function App() {
     const [champData] = useState(champList);
     return (
-        <div className="App">
+        <div
+            className="App"
+            style={{
+                background: `url(
+                    ${process.env.PUBLIC_URL}/images/bg.jpg
+                )`,
+            }}
+        >
             <Header />
             <Menu />
             <Routes>

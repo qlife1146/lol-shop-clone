@@ -1,4 +1,4 @@
-.content-area {
+.champion-content-area {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
@@ -9,11 +9,12 @@
 	position: relative;
 }
 
+/* 
 .col-md-4 .col-12 {
-	height: 300px;
 	padding: 0px 1%;
 	box-sizing: border-box;
-}
+	height: 300px;
+} */
 
 .champion-grid-card {
 	display: flex;
@@ -21,11 +22,10 @@
 	border: none;
 	position: relative;
 	cursor: pointer;
+	margin-bottom: 10px;
 }
 
 .champion-grid-img {
-	/* height: 100px;
-	width: 100px; */
 	max-width: 840px;
 	position: relative;
 	padding-top: 80%;
@@ -53,19 +53,17 @@
 }
 
 svg {
-	margin-right: 6px;
+	margin-right: 8px;
 }
 
 .champion-grid-price {
+	color: #f4ebd7;
 	display: flex;
 	margin-top: 2px;
-	margin-bottom: 10px;
-	color: #f4ebd7;
-}
-
-.champion-grid-price>* {
 	font-size: 20px;
 }
+
+.champion-grid-price>* {}
 
 .champion-grid-price-rp {
 	margin-right: 8px;
