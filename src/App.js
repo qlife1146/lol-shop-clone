@@ -26,15 +26,19 @@ function App() {
                     element={<Home />}
                 />
                 <Route
-                    path="/skins"
-                    element={<SkinGrid />}
-                />
-                <Route
                     path="/champions"
                     element={<ChampionGrid />}
                 />
                 <Route
+                    path="/skins"
+                    element={<SkinGrid />}
+                />
+                <Route
                     path="/champions/:id"
+                    element={<ChampionDetail data={champData} />}
+                />
+                <Route
+                    path="/skins/:id"
                     element={<ChampionDetail data={champData} />}
                 />
                 <Route

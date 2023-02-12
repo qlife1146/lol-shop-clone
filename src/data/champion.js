@@ -8,6 +8,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "소년과 설인",
+        skin: [
+            { id: 1, name: "폭신폭신 누누와 윌럼프", rpPrice: 750, discountRate: 0 },
+            { id: 2, name: "종이로 접은 누누와 윌럼프", rpPrice: 1350, discountRate: 0 },
+            { id: 3, name: "누누와 윌럼프 봇", rpPrice: 1820, discountRate: 0 },
+        ],
     },
     {
         id: 2,
@@ -15,6 +20,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "룬 마법사",
+        skin: [
+            { id: 1, name: "엉클샘 라이즈", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "암흑 수정 라이즈", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "아르카나 라이즈", rpPrice: 1350, discountRate: 0 },
+        ],
     },
     {
         id: 3,
@@ -22,6 +32,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "우주 검사",
+        skin: [
+            { id: 1, name: "아이오니아 마스터 이", rpPrice: 975, discountRate: 0 },
+            { id: 2, name: "선택받은 마스터 이", rpPrice: 520, discountRate: 0 },
+            { id: 3, name: "암살자 마스터 이", rpPrice: 390, discountRate: 0 },
+        ],
     },
     {
         id: 4,
@@ -29,6 +44,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "타락한 자",
+        skin: [
+            { id: 1, name: "칼날천사 모르가나", rpPrice: 750, discountRate: 0 },
+            { id: 2, name: "검은 가시 모르가나", rpPrice: 1350, discountRate: 0 },
+            { id: 3, name: "유령 신부 모르가나", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 5,
@@ -36,6 +56,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "언데드 학살병기",
+        skin: [
+            { id: 1, name: "야만전사 사이온", rpPrice: 750, discountRate: 0 },
+            { id: 2, name: "나무꾼 사이온", rpPrice: 520, discountRate: 0 },
+            { id: 3, name: "전쟁광 사이온", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 6,
@@ -43,6 +68,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "별의 아이",
+        skin: [
+            { id: 1, name: "나무 요정 소라카", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "신성한 소라카", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "천상의 빛 소라카", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 7,
@@ -50,6 +80,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "전장의 여제",
+        skin: [
+            { id: 1, name: "전장의 공주 시비르", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "약탈자 시비르", rpPrice: 750, discountRate: 0 },
+            { id: 3, name: "심판자 시비르", rpPrice: 750, discountRate: 0 },
+        ],
     },
     {
         id: 8,
@@ -57,6 +92,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "미노타우로스",
+        skin: [
+            { id: 1, name: "황금 알리스타", rpPrice: 390, discountRate: 0 },
+            { id: 2, name: "지옥의 알리스타", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "습격자 알리스타", rpPrice: 750, discountRate: 0 },
+        ],
     },
     {
         id: 9,
@@ -64,6 +104,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "어둠의 아이",
+        skin: [
+            { id: 1, name: "얼음불꽃 애니", rpPrice: 975, discountRate: 0 },
+            { id: 2, name: "판다 애니", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "슈퍼 갤럭시 애니", rpPrice: 1350, discountRate: 0 },
+        ],
     },
     {
         id: 10,
@@ -71,6 +116,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "서리 궁수",
+        skin: [
+            { id: 1, name: "로빈훗 애쉬", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "자수정 애쉬", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "습격자 애쉬", rpPrice: 750, discountRate: 0 },
+        ],
     },
     {
         id: 11,
@@ -78,6 +128,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "자운의 고삐 풀린 분노",
+        skin: [
+            { id: 1, name: "극지 사냥꾼 워윅", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "불송곳니 워윅", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "하이에나 워윅", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 12,
@@ -85,6 +140,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "무기의 달인",
+        skin: [
+            { id: 1, name: "잭시무스", rpPrice: 975, discountRate: 0 },
+            { id: 2, name: "소림사 잭스", rpPrice: 750, discountRate: 0 },
+            { id: 3, name: "응징자 잭스", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 13,
@@ -92,6 +152,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "정의로운 자",
+        skin: [
+            { id: 1, name: "청록의 심판자 케일", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "전장을 누빕는 케일", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "에테르 날개 케일", rpPrice: 1820, discountRate: 0 },
+        ],
     },
     {
         id: 14,
@@ -99,6 +164,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "요들 사수",
+        skin: [
+            { id: 1, name: "해적 트리스타나", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "로켓걸 트리스타나", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "용 조련사 트리스타나", rpPrice: 1820, discountRate: 0 },
+        ],
     },
     {
         id: 15,
@@ -106,6 +176,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "카드의 달인",
+        skin: [
+            { id: 1, name: "하트의 잭 트위스티드 페이트", rpPrice:520, discountRate: 0 },
+            { id: 2, name: "탱고 트위스티드 페이트", rpPrice: 520, discountRate: 0 },
+            { id: 3, name: "하이 눈 트위스티드 페이트", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 16,
@@ -113,6 +188,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "날쌘 정찰병",
+        skin: [
+            { id: 1, name: "우주비행사 티모", rpPrice: 1350, discountRate: 0 },
+            { id: 2, name: "복실복실 티모", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "슈퍼 티모", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 17,
@@ -120,6 +200,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "오래된 공포",
+        skin: [
+            { id: 1, name: "노상강도 피들스틱", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "유령 피들스틱", rpPrice:520, discountRate: 0 },
+            { id: 3, name: "깜짝 파티 피들스틱", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 18,
@@ -127,6 +212,11 @@ const champion = [
         rpPrice: rp[4],
         bePrice: be[4],
         nickName: "미친 화학자",
+        skin: [
+            { id: 1, name: "서퍼 신지드", rpPrice: 975, discountRate: 0 },
+            { id: 2, name: "강화형 신지드", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "암흑의 무법자 신지드", rpPrice: 750, discountRate: 0 },
+        ],
     },
     {
         id: 19,
@@ -134,6 +224,11 @@ const champion = [
         rpPrice: rp[3],
         bePrice: be[3],
         nickName: "시간의 수호자",
+        skin: [
+            { id: 1, name: "슈리마 사막의 질리언", rpPrice: 975, discountRate: 0 },
+            { id: 2, name: "신바람난 질리언", rpPrice: 520, discountRate: 0 },
+            { id: 3, name: "핏빛달 질리언", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 20,
@@ -141,6 +236,11 @@ const champion = [
         rpPrice: rp[3],
         bePrice: be[3],
         nickName: "고통스런 포옹",
+        skin: [
+            { id: 1, name: "그림자 이블린", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "탱고 이블린", rpPrice: 520, discountRate: 0 },
+            { id: 3, name: "금고털이 이블린", rpPrice: 750, discountRate: 0 },
+        ],
     },
     {
         id: 21,
@@ -148,6 +248,11 @@ const champion = [
         rpPrice: rp[3],
         bePrice: be[3],
         nickName: "야만전사 왕",
+        skin: [
+            { id: 1, name: "국왕 트린다미어", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "마검 트린다미어", rpPrice: 1820, discountRate: 0 },
+            { id: 3, name: "술탄 트린다미어", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 22,
@@ -330,6 +435,11 @@ const champion = [
         rpPrice: rp[2],
         bePrice: be[2],
         nickName: "무모한 탐험가",
+        skin: [
+            { id: 1, name: "서릿빛 이즈리얼", rpPrice: 520, discountRate: 30 },
+            { id: 2, name: "펄스 건 이즈리얼", rpPrice: 3250, discountRate: 0 },
+            { id: 3, name: "연미복 이즈리얼", rpPrice: 750, discountRate: 0 },
+        ],
     },
     {
         id: 48,
@@ -379,6 +489,11 @@ const champion = [
         rpPrice: rp[1],
         bePrice: be[1],
         nickName: "심연의 아귀",
+        skin: [
+            { id: 1, name: "왕나비 코그모", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "사자춤 코그모", rpPrice: 1350, discountRate: 0 },
+            { id: 3, name: "코그멍", rpPrice: 975, discountRate: 0 },
+        ],
     },
     {
         id: 55,
@@ -435,6 +550,11 @@ const champion = [
         rpPrice: rp[2],
         bePrice: be[2],
         nickName: "광명의 소녀",
+        skin: [
+            { id: 1, name: "마법사 럭스", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "마법도둑 럭스", rpPrice: 750, discountRate: 0 },
+            { id: 3, name: "원소술사 럭스", rpPrice: 3250, discountRate: 0 },
+        ],
     },
     {
         id: 63,
@@ -442,6 +562,11 @@ const champion = [
         rpPrice: rp[2],
         bePrice: be[2],
         nickName: "환술사",
+        skin: [
+            { id: 1, name: "사악한 르블랑", rpPrice: 750, discountRate: 60 },
+            { id: 2, name: "마술사 르블랑", rpPrice: 520, discountRate: 0 },
+            { id: 3, name: "나무정령 르블랑", rpPrice: 1350, discountRate: 0 },
+        ],
     },
     {
         id: 64,
@@ -589,6 +714,11 @@ const champion = [
         rpPrice: rp[1],
         bePrice: be[1],
         nickName: "초월한 마법사",
+        skin: [
+            { id: 1, name: "전투 기계 제라스", rpPrice: 520, discountRate: 0 },
+            { id: 2, name: "룬 제라스", rpPrice: 750, discountRate: 0 },
+            { id: 3, name: "용광로 제라스", rpPrice: 1350, discountRate: 0 },
+        ],
     },
     {
         id: 85,
@@ -638,6 +768,11 @@ const champion = [
         rpPrice: rp[1],
         bePrice: be[1],
         nickName: "혹한의 분노",
+        skin: [
+            { id: 1, name: "암흑 기수 세주아니", rpPrice: 975, discountRate: 0 },
+            { id: 2, name: "곰 기병 세주아니", rpPrice: 1350, discountRate: 0 },
+            { id: 3, name: "괴물 사냥꾼 세주아니", rpPrice: 750, discountRate: 0 },
+        ],
     },
     {
         id: 92,
@@ -652,6 +787,11 @@ const champion = [
         rpPrice: rp[1],
         bePrice: be[1],
         nickName: "심해의 타이탄",
+        skin: [
+            { id: 1, name: "지하 세계 노틸러스", rpPrice: 975, discountRate: 0 },
+            { id: 2, name: "아틀란티스 노틸러스", rpPrice: 975, discountRate: 0 },
+            { id: 3, name: "우주비행사 노틸러스", rpPrice: 1350, discountRate: 0 },
+        ],
     },
     {
         id: 94,
@@ -897,6 +1037,11 @@ const champion = [
         rpPrice: rp[1],
         bePrice: be[1],
         nickName: "크라켄의 여사제",
+        skin: [
+            { id: 1, name: "공허 인도자 일라오이", rpPrice:1350 , discountRate: 55 },
+            { id: 2, name: "저항군 일라오이", rpPrice: 1350, discountRate: 0 },
+            { id: 3, name: "우주 기원자 일라오이", rpPrice: 1350, discountRate: 0 },
+        ],
     },
     {
         id: 129,
@@ -932,6 +1077,11 @@ const champion = [
         rpPrice: rp[0],
         bePrice: be[0],
         nickName: "자연의 아버지",
+        skin: [
+            { id: 1, name: "새콤달콤 아이번", rpPrice: 1350, discountRate: 0 },
+            { id: 2, name: "덩크왕 아이번", rpPrice: 1350, discountRate: 0 },
+            { id: 3, name: "고대 신 아이번", rpPrice: 1350, discountRate: 0 },
+        ],
     },
     {
         id: 134,
@@ -1065,6 +1215,11 @@ const champion = [
         rpPrice: rp[0],
         bePrice: be[0],
         nickName: "노래하는 별",
+        skin: [
+            { id: 1, name: "K/DA ALL OUT 세라핀", rpPrice: 3250, discountRate: 60 },
+            { id: 2, name: "우아한 불사조 세라핀", rpPrice: 1350, discountRate: 0 },
+            { id: 3, name: "바다의 노래 세라핀", rpPrice: 1350, discountRate: 25 },
+        ],
     },
     {
         id: 153,

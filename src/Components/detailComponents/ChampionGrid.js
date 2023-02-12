@@ -16,21 +16,24 @@ export default function ChampionGrid() {
                         md={4}
                     >
                         <div
-                            key={_.id}
-                            className="champion-card"
+                            className="champion-grid-card"
                             onClick={() => {
                                 navigate("/champions/" + _.id);
                             }}
                         >
                             <div
-                                className="champion-img"
-                                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/champions/${i + 1}.jpg")` }}
+                                className="champion-grid-img"
+                                style={{
+                                    backgroundImage: `url(
+                                        ${process.env.PUBLIC_URL}/images/champions/${_.id}.jpg
+                                    )`,
+                                }}
                             ></div>
-                            <div className="champion-info">
-                                <div className="champion-name">{_.name}</div>
-                                <div className="champion-price">
-                                    <div className="price-rp">{_.rpPrice}</div>
-                                    <div className="price-be">{_.bePrice}</div>
+                            <div className="champion-grid-info">
+                                <div className="champion-grid-name">{_.name}</div>
+                                <div className="champion-grid-price">
+                                    <div className="champion-grid-price-rp">{_.rpPrice}</div>
+                                    <div className="champion-grid-price-be">{_.bePrice}</div>
                                 </div>
                             </div>
                         </div>

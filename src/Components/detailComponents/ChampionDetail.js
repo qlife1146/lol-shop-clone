@@ -8,9 +8,9 @@ export default function ChampionDetail(props) {
     // });
 
     return (
-        <div className="champion-page">
+        <div className="champion-detail-page">
             <div
-                className="champion-img"
+                className="champion-detail-img"
                 style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/champions/${id}.jpg")` }}
             >
                 <img
@@ -18,8 +18,8 @@ export default function ChampionDetail(props) {
                     alt=""
                 />
             </div>
-            <div className="champion-info">
-                <div className="champion-title">
+            <div className="champion-detail-info">
+                <div className="champion-detail-title">
                     {props.data[id - 1].name}, {props.data[id - 1].nickName}
                 </div>
                 <div className="description">이 챔피언, 어떠세요?</div>
