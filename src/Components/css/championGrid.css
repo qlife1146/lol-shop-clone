@@ -1,6 +1,76 @@
+.content-area {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	position: relative;
+}
+
+.col-md-4 .col-12 {
+	height: 300px;
+	padding: 0px 1%;
+	box-sizing: border-box;
+}
+
+.champion-grid-card {
+	display: flex;
+	flex-direction: column;
+	border: none;
+	position: relative;
+	cursor: pointer;
+}
+
 .champion-grid-img {
-	height: 100px;
-	width: 100px;
+	/* height: 100px;
+	width: 100px; */
+	max-width: 840px;
+	position: relative;
+	padding-top: 80%;
+	border: 1px solid #715f40;
 	background-size: cover;
 	background-position: center top;
+	border-radius: 5px;
+}
+
+.champion-grid-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.champion-grid-name {
+	color: #f4ebd7;
+	word-break: keep-all;
+	overflow: hidden;
+	width: 100%;
+	font-size: 14px;
+	max-height: 47px;
+}
+
+svg {
+	margin-right: 6px;
+}
+
+.champion-grid-price {
+	display: flex;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	color: #f4ebd7;
+}
+
+.champion-grid-price>* {
+	font-size: 20px;
+}
+
+.champion-grid-price-rp {
+	margin-right: 8px;
+}
+
+.champion-grid-price>*:last-child {
+	margin-right: 0;
 }

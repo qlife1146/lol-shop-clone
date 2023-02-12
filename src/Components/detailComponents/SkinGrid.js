@@ -27,9 +27,7 @@ export default function SkinGrid() {
                                             ${process.env.PUBLIC_URL}/images/skins/${_.championId + "00" + _.id}.jpg
                                         )`,
                                 }}
-                            >
-                                {console.log(_.championId + "00" + _.id)}
-                            </div>
+                            ></div>
                             <div className="skin-grid-info">
                                 <div className="skin-grid-name">{_.name}</div>
                                 <div className="skin-grid-price">

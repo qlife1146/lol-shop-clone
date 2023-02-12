@@ -3,6 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./Components/Header";
+import Menu from "./Components/mainComponents/Menu";
 
 import ChampionGrid from "./Components/detailComponents/ChampionGrid";
 import SkinGrid from "./Components/detailComponents/SkinGrid";
@@ -20,6 +21,7 @@ function App() {
     return (
         <div className="App">
             <Header />
+            <Menu />
             <Routes>
                 <Route
                     path="/"

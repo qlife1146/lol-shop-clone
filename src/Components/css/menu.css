@@ -1,5 +1,38 @@
+.menu-drawer {
+	bottom: 0;
+	min-width: 300px;
+	box-sizing: border-box;
+
+}
+
 .menu-links {
+	list-style: none;
 	display: flex;
+	margin: 0 auto;
+	padding: 20px 0;
 	flex-direction: row;
 	justify-content: space-around;
+	background-color: #010f19;
+	max-width: 100%;
+	border-bottom: 1px solid #252f38;
+}
+
+.menu-links a {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0;
+	cursor: pointer;
+	text-decoration: none;
+	color: #989898;
+	font-weight: bold;
+	height: 100%;
+	width: 100%;
+}
+
+.menu-links a.active {
+	color: #d2ccbc;
+
 }
