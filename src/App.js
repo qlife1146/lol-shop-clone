@@ -31,11 +31,12 @@ function App() {
             <Menu />
             <Routes>
                 <Route
+                    exact
                     path="/"
                     element={<Home />}
                 />
                 <Route
-                    path="/champions"
+                    path={"/champions"}
                     element={<ChampionGrid />}
                 />
                 <Route
