@@ -6,8 +6,7 @@ const useSkins = () => {
     useEffect(() => {
         const skins = champ
             .filter((champ) => champ.skin && champ.skin.length > 0)
-            // .map((champ) => champ.skin)
-            .flatMap((champ) => champ.skin.map((skin) => ({ ...skin, championId: champ.id })))
+            .flatMap((champ) => champ.skin.map((skin) => ({ ...skin, championId: champ.id, championName: champ.name })))
             .flat();
         setSkins(skins);
     }, []);

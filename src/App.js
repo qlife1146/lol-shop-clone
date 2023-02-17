@@ -13,11 +13,15 @@ import MyPage from "./Components/myPage/MyPage";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import ChampionDetail from "./Components/detailComponents/ChampionDetail";
-import champList from "./data/champion.js";
+import SkinDetail from "./Components/detailComponents/SkinDetail";
+import champList from "./data/champion";
+import useSkins from "./data/useSkins";
 import { useState } from "react";
 
 function App() {
     const [champData] = useState(champList);
+    const skinData = useSkins();
+    console.log("APP:", skinData);
     return (
         <div
             className="App"
@@ -49,7 +53,12 @@ function App() {
                 />
                 <Route
                     path="/skins/:id"
-                    element={<ChampionDetail data={champData} />}
+                    element={
+                        <SkinDetail
+                            data={skinData}
+                            sub={champData}
+                        />
+                    }
                 />
                 <Route
                     path="*"
