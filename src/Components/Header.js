@@ -35,6 +35,7 @@ export default function Header() {
                         </div>
                         <button
                             type="submit"
+                            disabled
                             className="search-bar-button"
                         >
                             검색

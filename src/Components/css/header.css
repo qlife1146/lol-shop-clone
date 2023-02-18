@@ -65,6 +65,7 @@
 	outline: none;
 	padding-left: 15px;
 	background: rgba(0, 0, 0, 0%);
+	text-decoration: line-through;
 }
 
 .search-bar-button {
@@ -77,6 +78,7 @@
 	font-weight: bold;
 	margin-left: 10px;
 	cursor: pointer;
+	text-decoration: line-through;
 }
 
 .header-menu {
