@@ -25,8 +25,8 @@ export default function Menu() {
                                     fill="#989898"
                                 />
                             </svg>
-                            챔피언
                         </span>
+                        <span className="default">챔피언</span>
                     </div>
                 </NavLink>
                 <NavLink
@@ -49,8 +49,8 @@ export default function Menu() {
                                     fill="#989898"
                                 />
                             </svg>
-                            스킨
                         </span>
+                        <span>스킨</span>
                     </div>
                 </NavLink>
             </ul>
