@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lol-shop-clone/static/css/main.0a188cc2.css",
-    "main.js": "/lol-shop-clone/static/js/main.c39ed270.js",
+    "main.css": "/lol-shop-clone/static/css/main.778b60d7.css",
+    "main.js": "/lol-shop-clone/static/js/main.cee60993.js",
     "index.html": "/lol-shop-clone/index.html",
-    "main.0a188cc2.css.map": "/lol-shop-clone/static/css/main.0a188cc2.css.map",
-    "main.c39ed270.js.map": "/lol-shop-clone/static/js/main.c39ed270.js.map"
+    "main.778b60d7.css.map": "/lol-shop-clone/static/css/main.778b60d7.css.map",
+    "main.cee60993.js.map": "/lol-shop-clone/static/js/main.cee60993.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a188cc2.css",
-    "static/js/main.c39ed270.js"
+    "static/css/main.778b60d7.css",
+    "static/js/main.cee60993.js"
   ]
 }
